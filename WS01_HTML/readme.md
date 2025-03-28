@@ -1,1 +1,1 @@
-Teen tänne kaikki WS01 tehtävät
+Teen tänne kaikki WS01 tehtävät.

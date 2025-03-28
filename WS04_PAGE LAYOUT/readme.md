@@ -1,0 +1,1 @@
+Tänne tallennan kaikki WS04 harjoitustehtävät.

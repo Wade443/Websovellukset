@@ -1,1 +1,1 @@
-Tänne tallennan kaikki työpajan WS02 CSS harjoitustehtävät
+Tänne tallennan kaikki työpajan WS02 CSS harjoitustehtävät.

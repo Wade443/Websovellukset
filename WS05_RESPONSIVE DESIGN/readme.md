@@ -1,0 +1,1 @@
+Tänne tallennan kaikki WS06 tehtävät.
