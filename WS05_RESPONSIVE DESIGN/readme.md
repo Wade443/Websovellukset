@@ -1,1 +1,1 @@
-Tänne tallennan kaikki WS06 tehtävät.
+Tänne tallennan kaikki WS05 tehtävät.
