@@ -20,7 +20,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 10%;
-    border-bottom: 0.5px solid #ffffff;
+    border-bottom: 0.5px solid #918f8f;
     color: white;
     position: fixed; 
     width: 100%; 
@@ -85,7 +85,8 @@ button:hover {
     left: 0;
     min-width: 100%;
     min-height: 100%;
-    object-fit: cover;
+    object-fit: contain;
+    background-color: black;
     z-index: -1;
 }
 #bg-video {
@@ -151,7 +152,7 @@ section p {
 
 .hero-section {
     position: relative;
-    height: 88vh;
+    height: 90vh;
     overflow: hidden;
 }
 
