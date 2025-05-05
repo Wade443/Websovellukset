@@ -49,12 +49,15 @@
     <div class="about-cards">
       <div class="about-card">
         <h3>Why Choose Motorcycles for Your Journey</h3>
+        <p class="card-description">Motorcycles offer freedom, agility, and a raw connection to the road.</p>
       </div>
       <div class="about-card">
         <h3>Explore Different Types of Motorcycles</h3>
+        <p class="card-description">From cruisers to sport bikes, each type offers a unique riding experience.</p>
       </div>
       <div class="about-card">
         <h3>Essential Safety Tips for New Riders</h3>
+        <p class="card-description">Wear proper gear, stay visible, and ride defensively at all times.</p>
       </div>
     </div>
   </section>
@@ -87,28 +90,63 @@
 </section>
 
 
-<section id="contact">
-    <div class="content">
-        <div class="card">
-        <h2>Contact</h2>
-        <p>If you have more questions regarding your process. Don't hesitate to get in touch with us!</p>
+<section id="contact" class="contact-section">
+  <div class="contact-container">
+    <div class="contact-map">
+      <!-- Replace with Google Maps iframe or image -->
+      <img src="images/map-placeholder.jpg" alt="Map">
     </div>
+
+    <div class="contact-form">
+      <h4>Tagline</h4>
+      <h2>Contact Us</h2>
+      <p>If you have any questions or need more information, feel free to reach out!</p>
+
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" placeholder="Type your message..." required></textarea>
+
+        <div class="form-checkbox">
+          <input type="checkbox" id="terms" name="terms">
+          <label for="terms">I accept the Terms</label>
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
     </div>
+  </div>
 </section>
 
-<nav>
-    <ul class="nav__links">
-        <li><a href="#categories">Categories</a></li>
-        <li><a href="#experiences">Experiences</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#about">about</a></li>
-    </ul>
-</nav>
-
-<a href="#Home">
-    <img class="logo" src="images/logo.png" width="150" height="20" alt="logo">
-  </a>
-
+  <script>
+    document.querySelectorAll('.about-card').forEach(card => {
+      const heading = card.querySelector('h3');
+      const paragraph = card.querySelector('.card-description');
+  
+      card.style.cursor = 'pointer';
+  
+      card.addEventListener('click', () => {
+        const isDescriptionVisible = paragraph.style.display === 'block';
+  
+        if (isDescriptionVisible) {
+          paragraph.style.display = 'none';
+          heading.style.display = 'block';
+        } else {
+          paragraph.style.display = 'block';
+          heading.style.display = 'none';
+        }
+      });
+    });
+  </script>
+  
+  <footer class="site-footer">
+    <p>&copy; 2025 WADE. J. All rights reserved.</p>
+  </footer>
 
     </body>
 </html> 

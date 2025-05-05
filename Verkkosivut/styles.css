@@ -299,6 +299,16 @@ html {
     overflow: hidden;
 }
 
+.card-description {
+    display: none;
+    margin-top: 15px;
+    font-size: 1.1rem;
+    font-weight: 400;      /* less bold */
+    color: #cccccc;        /* lighter gray */
+    line-height: 1.5;
+    transition: opacity 0.3s ease;
+  }
+
 .about-card::before {
     content: "";
     position: absolute;
@@ -395,3 +405,222 @@ html {
 .category-card:nth-child(8) {
     background-image: url("images/");
 }
+
+.contact-section {
+    background-color: #121212;
+    padding: 100px 10%;
+    color: white;
+    font-family: Montserrat, sans-serif;
+  }
+  
+  .contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .contact-map {
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+  }
+  
+  .contact-map img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    filter: grayscale(100%) contrast(1.2);
+  }
+  
+  .contact-form {
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+  }
+  
+  .contact-form h2 {
+    font-size: 2.5rem;
+    margin: 10px 0;
+  }
+  
+  .contact-form p {
+    margin-bottom: 30px;
+    color: #ccc;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form label {
+    margin-top: 15px;
+    font-weight: 500;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #aaa;
+    background-color: #1e1e1e;
+    color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 5px;
+  }
+  
+  .contact-form textarea::placeholder {
+    color: #888;
+  }
+  
+  .form-checkbox {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .form-checkbox input {
+    margin-right: 10px;
+  }
+  
+  .contact-form button {
+    padding: 12px 25px;
+    background-color: #7c0406;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #a90044;
+  }
+
+  .toggle-btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #7c0406;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    z-index: 2;
+    position: relative;
+  }
+  
+
+  .contact-section {
+    background-color: #121212;
+    padding: 100px 10%;
+    color: white;
+    font-family: Montserrat, sans-serif;
+  }
+  
+  .contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .contact-map {
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+  }
+  
+  .contact-map img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    filter: grayscale(100%) contrast(1.2);
+  }
+  
+  .contact-form {
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+  }
+  
+  .contact-form h2 {
+    font-size: 2.5rem;
+    margin: 10px 0;
+  }
+  
+  .contact-form p {
+    margin-bottom: 30px;
+    color: #ccc;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form label {
+    margin-top: 15px;
+    font-weight: 500;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #aaa;
+    background-color: #1e1e1e;
+    color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 5px;
+  }
+  
+  .contact-form textarea::placeholder {
+    color: #888;
+  }
+  
+  .form-checkbox {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .form-checkbox input {
+    margin-right: 10px;
+  }
+  
+  .contact-form button {
+    padding: 12px 25px;
+    background-color: #7c0406;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #a90044;
+  }
+
+   .site-footer {
+    background-color: #0e0e0e;
+    color: #aaa;
+    text-align: center;
+    padding: 30px 10%;
+    font-family: Montserrat, sans-serif;
+    font-size: 0.95rem;
+    border-top: 1px solid #222;
+  }
+  
+  .site-footer p {
+    margin: 0;
+  }
+  
