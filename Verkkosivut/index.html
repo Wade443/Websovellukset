@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en"> 
     <head>
+
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Welcome to my website</title>
@@ -32,9 +35,9 @@
   </video>
   <div class="overlay"></div>
   <div class="hero-text">
-      <h1>Wondering What Freedom Really Feels Like?</h1>
-      <hr class="hero-line">
-      <p>No maps, No limits, Just throttle.</p>
+    <h1 data-aos="fade-up" data-aos-delay="300">Wondering What Freedom Really Feels Like?</h1>
+    <hr class="hero-line" data-aos="zoom-in" data-aos-delay="600">
+    <p data-aos="fade-up" data-aos-delay="900">No maps, No limits, Just throttle.</p>
   </div>
 </div>
 
@@ -43,19 +46,19 @@
 <section id="about" class="about-section">
     <div class="about-image-wrapper">
       <img src="images/e.jpg" alt="Motorcycling Adventure" class="about-full-image">
-      <h2 class="corner-heading">Discover the Thrill of Motorcycling</h2>
+      <h2 class="corner-heading" >Discover the Thrill of Motorcycling</h2>
     </div>
   
     <div class="about-cards">
-      <div class="about-card">
+      <div class="about-card" data-aos="fade-up">
         <h3>Why Choose Motorcycles for Your Journey</h3>
         <p class="card-description">Motorcycles offer freedom, agility, and a raw connection to the road.</p>
       </div>
-      <div class="about-card">
+      <div class="about-card" data-aos="fade-up">
         <h3>Explore Different Types of Motorcycles</h3>
         <p class="card-description">From cruisers to sport bikes, each type offers a unique riding experience.</p>
       </div>
-      <div class="about-card">
+      <div class="about-card" data-aos="fade-up">
         <h3>Essential Safety Tips for New Riders</h3>
         <p class="card-description">Wear proper gear, stay visible, and ride defensively at all times.</p>
       </div>
@@ -70,42 +73,41 @@
         <p><strong>Tip:</strong> If you're unsure where to begin, consider test-riding different styles. Experience makes all the difference.</p>
       </div>
       <div class="categories-grid">
-        <div class="category-card">
+        <div class="category-card" data-aos="zoom-out">
           <span>Sport</span>
-          <a href="https://example.com/sport" target="_blank" class="learn-more-btn">Learn More</a>
+          <a href="https://en.wikipedia.org/wiki/Sports_motorcycle" target="_blank" class="learn-more-btn">Learn More</a>
         </div>
-        <div class="category-card">
+        <div class="category-card" data-aos="zoom-out" data-aos-delay="100">
           <span>Cruisers</span>
-          <a href="https://example.com/cruisers" target="_blank" class="learn-more-btn">Learn More</a>
+          <a href="https://en.wikipedia.org/wiki/Cruiser_(motorcycle)" target="_blank" class="learn-more-btn">Learn More</a>
         </div>
-        <div class="category-card">
+        <div class="category-card" data-aos="zoom-out" data-aos-delay="200">
           <span>Naked</span>
-          <a href="https://example.com/naked" target="_blank" class="learn-more-btn">Learn More</a>
+          <a href="https://www.cycleworld.com/tags/naked-motorcycles/" target="_blank" class="learn-more-btn">Learn More</a>
         </div>
-        <div class="category-card">
+        <div class="category-card" data-aos="zoom-out" data-aos-delay="300">
           <span>Adventure</span>
-          <a href="https://example.com/adventure" target="_blank" class="learn-more-btn">Learn More</a>
+          <a href="https://www.triumphmotorcycles.fi/motorcycles/adventure" target="_blank" class="learn-more-btn">Learn More</a>
         </div>
-        <div class="category-card">
+        <div class="category-card" data-aos="zoom-out" data-aos-delay="400">
           <span>Dirt Bikes</span>
-          <a href="https://example.com/dirt" target="_blank" class="learn-more-btn">Learn More</a>
+          <a href="https://balidirtbikes.com/different-types-of-dirt-bikes/" target="_blank" class="learn-more-btn">Learn More</a>
         </div>
-        <div class="category-card">
+        <div class="category-card" data-aos="zoom-out" data-aos-delay="500">
           <span>Electric</span>
-          <a href="https://example.com/electric" target="_blank" class="learn-more-btn">Learn More</a>
+          <a href="https://en.wikipedia.org/wiki/Electric_motorcycles_and_scooters" target="_blank" class="learn-more-btn">Learn More</a>
         </div>
-        <div class="category-card">
+        <div class="category-card" data-aos="zoom-out" data-aos-delay="600">
           <span>Cafe Racers</span>
-          <a href="https://example.com/cafe" target="_blank" class="learn-more-btn">Learn More</a>
+          <a href="https://en.wikipedia.org/wiki/Café_racer" target="_blank" class="learn-more-btn">Learn More</a>
         </div>
-        <div class="category-card">
+        <div class="category-card" data-aos="zoom-out" data-aos-delay="700">
           <span>Touring</span>
-          <a href="https://example.com/touring" target="_blank" class="learn-more-btn">Learn More</a>
+          <a href="https://en.wikipedia.org/wiki/Touring_motorcycle" target="_blank" class="learn-more-btn">Learn More</a>
         </div>
       </div>
         
       </div>
-    </div>
   </section>
 
   <section id="experiences" class="experiences-section">
@@ -140,7 +142,7 @@
         </div>
       </div>
 
-      <!-- Left Side: Background Video -->
+
       <div class="experience-video">
         <video autoplay muted loop playsinline>
           <source src="video/EXP.mp4" type="video/mp4">
@@ -152,14 +154,13 @@
     </div>
   </section>
 
-
 <section id="contact" class="contact-section">
   <div class="contact-container">
     <div class="contact-map">
       <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7924.135979491867!2d24.920278679823646!3d60.22981355525649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469209ce3b786c1f%3A0x2600b5523c1946a1!2sMaunula%2C%2000630%20Helsinki!5e0!3m2!1sfi!2sfi!4v1746535733351!5m2!1sfi!2sfi" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-      width="100%"
-      height="100%"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7924.135979491867!2d24.920278679823646!3d60.22981355525649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469209ce3b786c1f%3A0x2600b5523c1946a1!2sMaunula%2C%2000630%20Helsinki!5e0!3m2!1sfi!2sfi!4v1746535733351!5m2!1sfi!2sfi"
+      width="100"
+      height="100"
       style="border:0;"
       allowfullscreen=""
       loading="lazy"
@@ -168,7 +169,7 @@
     </div>
 
     <div class="contact-form">
-      <h4>Tagline</h4>
+
       <h2>Contact Us</h2>
       <p>If you have any questions or need more information, feel free to reach out!</p>
 
@@ -184,7 +185,7 @@
 
         <div class="form-checkbox">
           <input type="checkbox" id="terms" name="terms">
-          <label for="terms">I accept the Terms</label>
+          <label for="terms">I agree to the terms and conditions</label>
         </div>
 
         <button type="submit">Submit</button>
@@ -217,6 +218,14 @@
   <footer class="site-footer">
     <p>&copy; 2025 WADE. J. All rights reserved.</p>
   </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true
+  });
+</script>
 
     </body>
 </html> 

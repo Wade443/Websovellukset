@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+body {
+    font-family: Montserrat, sans-serif;
+  }
+  
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -8,7 +13,6 @@
 
 
 li, a, button {
-    font-family: Montserrat, sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: rgb(255, 255, 255);
@@ -28,9 +32,9 @@ header {
 }
 
 header {
-    background-color: rgba(0, 0, 0, 0.85); /* Almost black with slight transparency */
-    backdrop-filter: blur(10px);         /* Adds blur behind the navbar */
-    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    background-color: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 .logo {
@@ -94,7 +98,7 @@ button:hover {
     color: rgb(255, 255, 255);
     text-align: center;
     z-index: 1;
-    font-family: Montserrat, sans-serif;
+    
 }
 
 .hero-text h1 {
@@ -110,9 +114,8 @@ button:hover {
 section {
     min-height: 100vh;
     padding: 100px 10%;
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
-    font-family: Montserrat, sans-serif;
+    background-color: #121111;
+    color: rgb(255, 255, 255);
     border-top: 1px solid #444;
 }
 
@@ -155,25 +158,6 @@ section p {
     z-index: -1;
 }
 
-.hero-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(255, 255, 255);
-    text-align: center;
-    z-index: 1;
-    font-family: Montserrat, sans-serif;
-}
-
-section {
-    min-height: 100vh;
-    padding: 100px 10%;
-    background-color: rgb(18, 18, 18);
-    color: rgb(255, 255, 255);
-    font-family: Montserrat, sans-serif;
-    border-top: 1px solid #444;
-}
 
 html {
     scroll-behavior: smooth;
@@ -187,8 +171,7 @@ html {
     background-color: white;
     opacity: 0.5;
 }
-
-  
+    
 .about-section {
     padding: 50px 0 50px;
     background-color: rgb(18, 18, 18);
@@ -204,7 +187,7 @@ html {
 .about-image-wrapper {
     position: relative;
     width: 100%;
-    margin-top: -50px; /* lift the image slightly */
+    margin-top: -50px;
 }
 
 .about-full-image {
@@ -227,8 +210,8 @@ html {
 .about-card {
     background-color: #1c1c1cda;
     border: 1px solid #ccc;
-    padding: 140px 80px;              /* more internal spacing */
-    width: 660px;                    /* wider card */
+    padding: 140px 80px;
+    width: 660px;
     text-align: center;
     box-shadow: 0 0 15px rgba(0,0,0,0.08);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -236,7 +219,7 @@ html {
     background-size: cover;
      background-position: center;
     background-repeat: no-repeat;
-     color: white; /* ensure text stays readable */
+     color: white;
      position: relative;
     overflow: hidden;
     
@@ -248,7 +231,7 @@ html {
 }
 
 .about-card h3 {
-    font-size: 2.2rem;              /* bigger heading */
+    font-size: 2.2rem;
     margin-top: 20px;
     font-weight: 700;
     color: rgb(255, 255, 255);
@@ -257,7 +240,7 @@ html {
 }
 
 .about-card p {
-    font-size: 1.3rem;              /* slightly bigger text */
+    font-size: 1.3rem;
     margin-top: 15px;
     color: #ffffff;
     font-weight: 500;
@@ -290,8 +273,8 @@ html {
     display: none;
     margin-top: 15px;
     font-size: 1.1rem;
-    font-weight: 400;      /* less bold */
-    color: #cccccc;        /* lighter gray */
+    font-weight: 400;
+    color: #cccccc;
     line-height: 1.5;
     transition: opacity 0.3s ease;
   }
@@ -300,7 +283,7 @@ html {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.3); /* adjust opacity as needed */
+    background: rgba(0, 0, 0, 0.3); 
     z-index: 0;
 }
 
@@ -350,15 +333,12 @@ html {
     background-size: cover;
     background-position: center;
     position: relative;
-}
-
-.category-card {
-    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
+}
+
   
   .category-card span {
     font-size: 1.5rem;
@@ -397,7 +377,7 @@ html {
 }
 
 .category-card:nth-child(1) {
-    background-image: url("images/Sport.jpg");
+    background-image: url("images/ss.jpg");
 }
 .category-card:nth-child(2) {
     background-image: url("images/Cruiser.jpg");
@@ -406,26 +386,25 @@ html {
     background-image: url("images/MT2.jpg");
 }
 .category-card:nth-child(4) {
-    background-image: url("images/adventure\ biie.jpeg");
+    background-image: url("images/u.jpeg");
 }
 .category-card:nth-child(5) {
     background-image: url("images/Dirtbike.jpeg");
 }
 .category-card:nth-child(6) {
-    background-image: url("images/Electric.jpeg");
+    background-image: url("images/E.jpeg");
 }
 .category-card:nth-child(7) {
     background-image: url("images/Cafe\ racer.jpeg");
 }
 .category-card:nth-child(8) {
-    background-image: url("images/");
+    background-image: url("images/touringg.webp");
 }
 
 .contact-section {
     background-color: #121212;
     padding: 100px 10%;
     color: white;
-    font-family: Montserrat, sans-serif;
   }
   
   .contact-container {
@@ -535,7 +514,6 @@ html {
     background-color: #121212;
     padding: 100px 10%;
     color: white;
-    font-family: Montserrat, sans-serif;
   }
   
   .contact-container {
@@ -630,7 +608,6 @@ html {
     color: #aaa;
     text-align: center;
     padding: 30px 10%;
-    font-family: Montserrat, sans-serif;
     font-size: 0.95rem;
     border-top: 1px solid #222;
   }
@@ -643,7 +620,6 @@ html {
     background-color: #121212;
     padding: 100px 10%;
     color: white;
-    font-family: Montserrat, sans-serif;
   }
   
   .experience-container {
@@ -677,7 +653,7 @@ html {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    max-height: 700px; /* match .experience-video height */
+    max-height: 700px;
     overflow-y: auto;
     padding-right: 10px;
   }
@@ -708,8 +684,8 @@ html {
   }
 
   .contact-map iframe {
-    width: 100%;       /* or a fixed value like 600px */
-    height: 620px;     /* adjust this as needed */
+    width: 100%;       
+    height: 620px;     
     border-radius: 10px;
     filter: grayscale(100%) contrast(1.2);
   }
@@ -720,11 +696,10 @@ html {
     padding: 25px 30px;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    margin: 30px auto;        /* center horizontally */
+    margin: 30px auto;        
     font-size: 1.1rem;
-    font-family: Montserrat, sans-serif;
     max-width: 800px;
-    text-align: center;       /* optional, for center-aligned text */
+    text-align: center;       
   }
 
   .corner-heading {
